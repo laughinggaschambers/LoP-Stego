@@ -1,0 +1,9 @@
+{
+  "type": "content",
+  "modid": "stegosauria",
+  "name": "Legacy of the Phanerozoic: Plated Back",
+  "authors": [ "laughinggas" ],
+  "description": "Adds the family of stegosaurian dinosaurs to Vintage Story",
+  "version": "1.0.0",
+  "side": "Universal"
+}

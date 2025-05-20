@@ -1,0 +1,94 @@
+﻿{
+  "code": "creature",
+  "class": "ItemCreature",
+  "maxstacksize": 64,
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ 
+		"stegosauria-stegosaurus-adult-male","stegosauria-stegosaurus-adult-female", "stegosauria-stegosaurus-baby-male", "stegosauria-stegosaurus-baby-female","stegosauria-stegosaurus-nest-empty","stegosauria-stegosaurus-nest-incubating","stegosauria-stegosaurus-nest-mature",
+		"stegosauria-dacentrurus-adult-male","stegosauria-dacentrurus-adult-female", "stegosauria-dacentrurus-baby-male", "stegosauria-dacentrurus-baby-female","stegosauria-dacentrurus-nest-empty","stegosauria-dacentrurus-nest-incubating","stegosauria-dacentrurus-nest-mature",
+		"stegosauria-wuerhosaurus-adult-male","stegosauria-wuerhosaurus-adult-female", "stegosauria-wuerhosaurus-baby-male", "stegosauria-wuerhosaurus-baby-female","stegosauria-wuerhosaurus-nest-empty","stegosauria-wuerhosaurus-nest-incubating","stegosauria-wuerhosaurus-nest-mature",
+		"stegosauria-hesperosaurus-adult-male","stegosauria-hesperosaurus-adult-female", "stegosauria-hesperosaurus-baby-male", "stegosauria-hesperosaurus-baby-female","stegosauria-hesperosaurus-nest-empty","stegosauria-hesperosaurus-nest-incubating","stegosauria-hesperosaurus-nest-mature",
+		"stegosauria-tuojiangosaurus-adult-male","stegosauria-tuojiangosaurus-adult-female", "stegosauria-tuojiangosaurus-baby-male", "stegosauria-tuojiangosaurus-baby-female","stegosauria-tuojiangosaurus-nest-empty","stegosauria-tuojiangosaurus-nest-incubating","stegosauria-tuojiangosaurus-nest-mature",
+		"stegosauria-alcovasaurus-adult-male","stegosauria-alcovasaurus-adult-female", "stegosauria-alcovasaurus-baby-male", "stegosauria-alcovasaurus-baby-female","stegosauria-alcovasaurus-nest-empty","stegosauria-alcovasaurus-nest-incubating","stegosauria-alcovasaurus-nest-mature",
+		"stegosauria-miragaia-adult-male","stegosauria-miragaia-adult-female", "stegosauria-miragaia-baby-male", "stegosauria-miragaia-baby-female","stegosauria-miragaia-nest-empty","stegosauria-miragaia-nest-incubating","stegosauria-miragaia-nest-mature",
+		"stegosauria-isaberrysaura-adult-male","stegosauria-isaberrysaura-adult-female", "stegosauria-isaberrysaura-baby-male", "stegosauria-isaberrysaura-baby-female","stegosauria-isaberrysaura-nest-empty","stegosauria-isaberrysaura-nest-incubating","stegosauria-isaberrysaura-nest-mature",
+		"stegosauria-kentrosaurus-adult-male","stegosauria-kentrosaurus-adult-female", "stegosauria-kentrosaurus-baby-male", "stegosauria-kentrosaurus-baby-female","stegosauria-kentrosaurus-nest-empty","stegosauria-kentrosaurus-nest-incubating","stegosauria-kentrosaurus-nest-mature",
+		"stegosauria-huayangosaurus-adult-male","stegosauria-huayangosaurus-adult-female", "stegosauria-huayangosaurus-baby-male", "stegosauria-huayangosaurus-baby-female","stegosauria-huayangosaurus-nest-empty","stegosauria-huayangosaurus-nest-incubating","stegosauria-huayangosaurus-nest-mature",
+		"stegosauria-gigantspinosaurus-adult-male","stegosauria-gigantspinosaurus-adult-female", "stegosauria-gigantspinosaurus-baby-male", "stegosauria-gigantspinosaurus-baby-female","stegosauria-gigantspinosaurus-nest-empty","stegosauria-gigantspinosaurus-nest-incubating","stegosauria-gigantspinosaurus-nest-mature",
+		"stegosauria-chungkingosaurus-adult-male","stegosauria-chungkingosaurus-adult-female", "stegosauria-chungkingosaurus-baby-male", "stegosauria-chungkingosaurus-baby-female","stegosauria-chungkingosaurus-nest-empty","stegosauria-chungkingosaurus-nest-incubating","stegosauria-chungkingosaurus-nest-mature",
+
+
+	  ]
+    }
+  ],
+  "shapeByType": {
+	"*-stegosaurus-adult-*": {"base": "entity/land/stegosauria/stegosaurus/adult"}, "*-stegosaurus-baby-*": {"base": "entity/land/stegosauria/stegosaurus/baby"},
+	"*-miragaia-adult-*": {"base": "entity/land/stegosauria/miragaia/adult"}, "*-miragaia-baby-*": {"base": "entity/land/stegosauria/miragaia/baby"},
+	"*-dacentrurus-adult-*": {"base": "entity/land/stegosauria/dacentrurus/adult"}, "*-dacentrurus-baby-*": {"base": "entity/land/stegosauria/dacentrurus/baby"},
+	"*-wuerhosaurus-adult-*": {"base": "entity/land/stegosauria/wuerhosaurus/adult"}, "*-wuerhosaurus-baby-*": {"base": "entity/land/stegosauria/wuerhosaurus/baby"},
+	"*-hesperosaurus-adult-*": {"base": "entity/land/stegosauria/hesperosaurus/adult"}, "*-hesperosaurus-baby-*": {"base": "entity/land/stegosauria/hesperosaurus/baby"},
+	"*-tuojiangosaurus-adult-*": {"base": "entity/land/stegosauria/tuojiangosaurus/adult"}, "*-tuojiangosaurus-baby-*": {"base": "entity/land/stegosauria/tuojiangosaurus/baby"},
+	"*-alcovasaurus-adult-*": {"base": "entity/land/stegosauria/alcovasaurus/adult"}, "*-alcovasaurus-baby-*": {"base": "entity/land/stegosauria/alcovasaurus/baby"},
+	"*-isaberrysaura-adult-*": {"base": "entity/land/stegosauria/isaberrysaura/adult"}, "*-isaberrysaura-baby-*": {"base": "entity/land/stegosauria/isaberrysaura/baby"},
+	"*-chungkingosaurus-adult-*": {"base": "entity/land/stegosauria/chungkingosaurus/adult"}, "*-chungkingosaurus-baby-*": {"base": "entity/land/stegosauria/chungkingosaurus/baby"},
+	"*-kentrosaurus-adult-*": {"base": "entity/land/stegosauria/kentrosaurus/adult"}, "*-kentrosaurus-baby-*": {"base": "entity/land/stegosauria/kentrosaurus/baby"},
+	"*-huayangosaurus-adult-*": {"base": "entity/land/stegosauria/huayangosaurus/adult"}, "*-huayangosaurus-baby-*": {"base": "entity/land/stegosauria/huayangosaurus/baby"},
+	"*-gigantspinosaurus-adult-*": {"base": "entity/land/stegosauria/gigantspinosaurus/adult"}, "*-gigantspinosaurus-baby-*": {"base": "entity/land/stegosauria/gigantspinosaurus/baby"},
+	"*-nest-*":{"base": "entity/land/nest"}, "*-nest-empty":{"base": "entity/land/nest-empty"},
+  },
+  "textureByType": {
+	"*-stegosaurus-adult-*":{"base": "entity/stegosaurus-adult"},"*-stegosaurus-baby-*":{"base": "entity/stegosaurus-adult"},
+	"*-miragaia-adult-*":{"base": "entity/miragaia-adult"},"*-miragaia-baby-*":{"base": "entity/miragaia-adult"},
+	"*-dacentrurus-adult-*":{"base": "entity/dacentrurus-adult"},"*-dacentrurus-baby-*":{"base": "entity/dacentrurus-adult"},
+	"*-wuerhosaurus-adult-*":{"base": "entity/wuerhosaurus-adult"},"*-wuerhosaurus-baby-*":{"base": "entity/wuerhosaurus-adult"},
+	"*-hesperosaurus-adult-*":{"base": "entity/hesperosaurus-adult"},"*-hesperosaurus-baby-*":{"base": "entity/hesperosaurus-adult"},
+	"*-tuojiangosaurus-adult-*":{"base": "entity/tuojiangosaurus-adult"},"*-tuojiangosaurus-baby-*":{"base": "entity/tuojiangosaurus-adult"},
+	"*-alcovasaurus-adult-*":{"base": "entity/alcovasaurus-adult"},"*-alcovasaurus-baby-*":{"base": "entity/alcovasaurus-adult"},
+	"*-isaberrysaura-adult-*":{"base": "entity/isaberrysaura-adult"},"*-isaberrysaura-baby-*":{"base": "entity/isaberrysaura-adult"},
+	"*-chungkingosaurus-adult-*":{"base": "entity/chungkingosaurus-adult"},"*-chungkingosaurus-baby-*":{"base": "entity/chungkingosaurus-adult"},
+	"*-kentrosaurus-adult-*":{"base": "entity/kentrosaurus-adult"},"*-kentrosaurus-baby-*":{"base": "entity/kentrosaurus-adult"},
+	"*-huayangosaurus-adult-*":{"base": "entity/huayangosaurus-adult"},"*-huayangosaurus-baby-*":{"base": "entity/huayangosaurus-adult"},
+	"*-gigantspinosaurus-adult-*":{"base": "entity/gigantspinosaurus-adult"},"*-gigantspinosaurus-baby-*":{"base": "entity/gigantspinosaurus-adult"},
+ },
+  "creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"] },
+	"materialDensity": 600,
+	"guiTransformByType": {
+		"*-baby-*": {
+			"rotate": true,
+			"translation": { "x": -20, "y": -15, "z": 0 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
+			"scale": 0.7
+		},
+		"creature-stegosauria-*": {
+			"rotate": true,
+			"translation": { "x": -10, "y": 0, "z": 0 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
+			"scale": 0.3
+		},
+	},
+
+	"tpHandTransformByType": {
+		"*-baby-*": {
+			"translation": { "x": -0.51, "y": -0.2, "z": -0.7 },
+			"rotation": { "x": 53, "y": -165, "z": 77 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 0.25
+		},
+		"creature-stegosauria-*": {
+			"translation": { "x": -3, "y": -3, "z": -2 },
+			"rotation": { "x": -180, "y": 0, "z": -156 },
+			"scale": 0.15
+		}		
+	},
+
+	"fpHandTransformByType": {
+		"creature-stegosauria-*": {
+			"translation": { "x": -5, "y": -5, "z": 0 },
+			"rotation": { "x": -8, "y": -63, "z": -7 }
+		}
+	}
+}

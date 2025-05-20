@@ -1,0 +1,74 @@
+[
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "stegosauria:entities/land/stegosauria",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityColliders",
+      "elements": {
+        "Torso": ["Neck","Neck2","Body Front", "Body", "Body Back", "Tail", "Tail2","Tail3","Tail4","Tail5","BodyFT","BodyFT2","BodyFT3","BodyFT4","BodyFT5","BodyFT6","BodyFT7","BodyFT8","BodyFT9","BodyFT10","BodyFB4","BodyFB5","BodyFB11",],
+        "Head": ["Head", "Jaw","Jaw2","Jaw3","Lower Jaw1","Throat","JawLine","Head9","Head2","Head3","Jaw7","Jaw4","Jaw9","Jaw13",],
+        "Arm": [],
+        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+        "Critical": ["EyeR","EyeL","Heart","Brain","Lungs"],
+        "Resistant": []
+      },
+      "defaultPenetrationResistance": 6,
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "stegosauria:entities/land/stegosauria",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityColliders",
+      "elements": {
+        "Torso": ["Neck","Neck2","Body Front", "Body", "Body Back", "Tail", "Tail2","Tail3","Tail4","Tail5","BodyFT","BodyFT2","BodyFT3","BodyFT4","BodyFT5","BodyFT6","BodyFT7","BodyFT8","BodyFT9","BodyFT10","BodyFB4","BodyFB5","BodyFB11",],
+        "Head": ["Head", "Jaw","Jaw2","Jaw3","Lower Jaw1","Throat","JawLine","Head9","Head2","Head3","Jaw7","Jaw4","Jaw9","Jaw13",],
+        "Arm": [],
+        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+        "Critical": ["EyeR","EyeL","Heart","Brain","Lungs"],
+        "Resistant": []
+      },
+      "defaultPenetrationResistance": 6,
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "stegosauria:entities/land/stegosauria",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 2,
+        "LimbsDamageMultiplier": 0.75,
+        "HeadDamageMultiplier": 3,
+        "CriticalDamageMultiplier": 5,
+        "DefaultResists": {"BluntAttack": 5, "SlashingAttack": 4, "PiercingAttack": 0}
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "stegosauria:entities/land/stegosauria",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 2,
+        "LimbsDamageMultiplier": 0.75,
+        "HeadDamageMultiplier": 3,
+        "CriticalDamageMultiplier": 5,
+        "DefaultResists": {"BluntAttack": 5, "SlashingAttack": 4, "PiercingAttack": 0}
+      }
+    }
+  }
+]

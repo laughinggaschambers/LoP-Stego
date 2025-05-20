@@ -1,0 +1,184 @@
+[
+  {
+    "file": "stegosauria:entities/land/stegosauria.json",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "side": "Server",
+    "value": {
+        "*-stegosaurus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+            "atlantic palearctic",
+            "eastern palearctic",
+          ]
+        },
+
+        "*-miragaia-*": {
+          "biorealm": [
+            "atlantic palearctic",
+          ]
+        },
+
+        "*-dacentrurus-*": {
+          "biorealm": [
+            "atlantic palearctic",
+          ]
+        },
+
+        "*-wuerhosaurus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-hesperosaurus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-tuojiangosaurus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-alcovasaurus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-isaberrysaura-*": {
+          "biorealm": [
+            "pacific neotropic",
+            "atlantic neotropic",
+          ]
+        },
+
+        "*-chungkingosaurus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-kentrosaurus-*": {
+          "biorealm": [
+            "eastern afrotropic",
+          ]
+        },
+
+        "*-huayangosaurus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-gigantspinosaurus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+    },
+    "dependsOn": [
+      {
+        "modid": "biomes"
+      }
+    ]
+  },
+  {
+    "file": "stegosauria:entities/land/nest.json",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "side": "Server",
+    "value": {
+        "*-stegosaurus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+            "atlantic palearctic",
+            "eastern palearctic",
+          ]
+        },
+
+        "*-miragaia-*": {
+          "biorealm": [
+            "atlantic palearctic",
+          ]
+        },
+
+        "*-dacentrurus-*": {
+          "biorealm": [
+            "atlantic palearctic",
+          ]
+        },
+
+        "*-wuerhosaurus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-hesperosaurus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-tuojiangosaurus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-alcovasaurus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-isaberrysaura-*": {
+          "biorealm": [
+            "pacific neotropic",
+            "atlantic neotropic",
+          ]
+        },
+
+        "*-chungkingosaurus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-kentrosaurus-*": {
+          "biorealm": [
+            "eastern afrotropic",
+          ]
+        },
+
+        "*-huayangosaurus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-gigantspinosaurus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+    },
+    "dependsOn": [
+      {
+        "modid": "biomes"
+      }
+    ]
+  },
+]
